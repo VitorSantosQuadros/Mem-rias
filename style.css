@@ -88,7 +88,7 @@ section {
 }
 
 .imagens-container img {
-    max-width: 200px; /* Diminuir a largura máxima das imagens */
+    max-width: 70px; /* Diminuir a largura máxima das imagens */
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -111,7 +111,7 @@ section {
 }
 
 .videos-container video {
-    max-width: 300px; /* Diminuir a largura máxima dos vídeos */
+    max-width: 70px; /* Diminuir a largura máxima dos vídeos */
     width: 100%;
     height: auto;
     border: 3px solid #4CAF50; /* Borda verde para os vídeos */
