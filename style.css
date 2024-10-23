@@ -83,14 +83,14 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px; /* Reduzir o espaço entre as imagens */
+    gap: 10px; /* Reduzir o espaço entre as imagens */
     margin-bottom: 40px;
 }
 
 .imagens-container img {
     max-width: 70px; /* Diminuir a largura máxima das imagens */
-    width: 100%;
-    height: auto;
+    width: auto; /* Ajustar a largura */
+    height: auto; /* Manter proporção */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -106,14 +106,14 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px; /* Reduzir o espaço entre os vídeos */
+    gap: 10px; /* Reduzir o espaço entre os vídeos */
     margin-top: 40px;
 }
 
 .videos-container video {
     max-width: 70px; /* Diminuir a largura máxima dos vídeos */
-    width: 100%;
-    height: auto;
+    width: auto; /* Ajustar a largura */
+    height: auto; /* Manter proporção */
     border: 3px solid #4CAF50; /* Borda verde para os vídeos */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
